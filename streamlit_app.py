@@ -15,7 +15,7 @@ background-color: #081018;
 color: white;
 }
 
-```
+
 [data-testid="stSidebar"] {
     background-color: #0b141f;
 }
@@ -144,7 +144,7 @@ page = st.sidebar.radio(
 
 if page == "Dashboard":
 
-```
+
 st.markdown(
     """
     <div class="hero">
@@ -242,11 +242,11 @@ for _, row in sorted_df.iterrows():
             f"Impact Score: "
             f"**{row['impact_score']}**"
         )
-```
+
 
 elif page == "Policy Explorer":
 
-```
+
 st.title("Policy Explorer")
 
 st.caption(
@@ -318,11 +318,11 @@ for _, row in filtered.iterrows():
             "Impact Score",
             int(row["impact_score"]),
         )
-```
+
 
 elif page == "Trend Signals":
 
-```
+
 st.title("Trend Signals")
 
 st.caption(
@@ -369,11 +369,11 @@ for _, row in filtered_signals.iterrows():
                 "Score",
                 int(row["score"]),
             )
-```
+
 
 elif page == "About":
 
-```
+
 st.title(
     "About HealthScope AI"
 )
