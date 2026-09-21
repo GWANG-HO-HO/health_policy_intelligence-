@@ -1,4 +1,3 @@
-```python
 import pandas as pd
 import plotly.express as px
 import streamlit as st
@@ -260,4 +259,3 @@ class about:
             - 기업·기관 Knowledge Graph
             """
         )
-```
