@@ -8,16 +8,12 @@ DATA_DIR = BASE_DIR / "data"
 
 @st.cache_data
 def load_policy_data():
-file_path = DATA_DIR / "policies.csv"
-return pd.read_csv(file_path)
+return pd.read_csv(DATA_DIR / "policies.csv")
 
 @st.cache_data
 def load_signal_data():
-file_path = DATA_DIR / "signals.csv"
-return pd.read_csv(file_path)
+return pd.read_csv(DATA_DIR / "signals.csv")
 
 @st.cache_data
 def load_organizations():
-file_path = DATA_DIR / "organizations.csv"
-return pd.read_csv(file_path)
-
+return pd.read_csv(DATA_DIR / "organizations.csv")
