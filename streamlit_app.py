@@ -1,4 +1,3 @@
-```python
 import streamlit as st
 
 from app.ui import inject_global_css, render_sidebar_brand
