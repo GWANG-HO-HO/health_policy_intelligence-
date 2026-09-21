@@ -50,4 +50,3 @@ pages = {
 
 pg = st.navigation(pages, position="sidebar")
 pg.run()
-```
